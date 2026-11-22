@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-22",
   "tools": [
     {"name": "ChatGPT", "cat": "Chat", "tag": "free", "desc": "Chat AI miễn phí có giới hạn; bản Plus trả phí.", "url": "https://chatgpt.com"},
     {"name": "Gemini (Google)", "cat": "Chat", "tag": "free", "desc": "Miễn phí với tài khoản Google; có gói Gemini Advanced trả phí.", "url": "https://gemini.google.com"},
