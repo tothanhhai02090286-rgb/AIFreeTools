@@ -1,45 +1,1069 @@
 {
   "updated": "2026-11-22",
   "tools": [
-    {"name": "ChatGPT", "cat": "Chat", "tag": "free", "desc": "Chat AI miễn phí có giới hạn; bản Plus trả phí.", "url": "https://chatgpt.com"},
-    {"name": "Gemini (Google)", "cat": "Chat", "tag": "free", "desc": "Miễn phí với tài khoản Google; có gói Gemini Advanced trả phí.", "url": "https://gemini.google.com"},
-    {"name": "Claude (Anthropic)", "cat": "Chat", "tag": "free", "desc": "Gói Free có giới hạn yêu cầu mỗi ngày.", "url": "https://claude.ai"},
-    {"name": "DeepSeek", "cat": "Chat", "tag": "free", "desc": "Chat miễn phí, model mã nguồn mở.", "url": "https://chat.deepseek.com"},
-    {"name": "Qwen Chat", "cat": "Chat", "tag": "free", "desc": "Chat miễn phí từ Alibaba (model Qwen).", "url": "https://chat.qwen.ai"},
-    {"name": "Meta AI", "cat": "Chat", "tag": "free", "desc": "Trợ lý AI miễn phí của Meta.", "url": "https://www.meta.ai"},
-    {"name": "Le Chat (Mistral)", "cat": "Chat", "tag": "free", "desc": "Chat miễn phí của Mistral AI.", "url": "https://chat.mistral.ai"},
-    {"name": "Microsoft Copilot", "cat": "Chat", "tag": "free", "desc": "Miễn phí với tài khoản Microsoft.", "url": "https://copilot.microsoft.com"},
-    {"name": "Perplexity", "cat": "Tra cứu", "tag": "free", "desc": "Tìm kiếm có AI, kèm nguồn tham chiếu, miễn phí.", "url": "https://www.perplexity.ai"},
-    {"name": "NotebookLM (Google)", "cat": "Tra cứu", "tag": "free", "desc": "Nghiên cứu, tóm tắt tài liệu; miễn phí với tài khoản Google.", "url": "https://notebooklm.google.com"},
-    {"name": "You.com", "cat": "Tra cứu", "tag": "free", "desc": "Công cụ tìm kiếm AI miễn phí.", "url": "https://you.com"},
-    {"name": "GitHub Copilot Free", "cat": "Mã nguồn", "tag": "free", "desc": "Gói miễn phí có giới hạn yêu cầu mỗi tháng.", "url": "https://github.com/features/copilot"},
-    {"name": "Windsurf (Codeium)", "cat": "Mã nguồn", "tag": "free", "desc": "IDE có AI; gói Free tặng credit mỗi tháng.", "url": "https://windsurf.com"},
-    {"name": "Cursor", "cat": "Mã nguồn", "tag": "trial", "desc": "Dùng thử miễn phí theo tuần, sau đó trả phí.", "url": "https://cursor.com"},
-    {"name": "Ideogram", "cat": "Hình ảnh", "tag": "free", "desc": "Tạo ảnh AI miễn phí khoảng 10 ảnh/ngày.", "url": "https://ideogram.ai"},
-    {"name": "Adobe Firefly", "cat": "Hình ảnh", "tag": "free", "desc": "Miễn phí với credit hằng tháng cho tài khoản Adobe.", "url": "https://www.adobe.com/products/firefly.html"},
-    {"name": "Recraft", "cat": "Hình ảnh", "tag": "free", "desc": "Gói Free có giới hạn điểm mỗi ngày.", "url": "https://www.recraft.ai"},
-    {"name": "Leonardo AI", "cat": "Hình ảnh", "tag": "trial", "desc": "Tặng credit khi đăng kí; sau đó trả phí.", "url": "https://leonardo.ai"},
-    {"name": "Craiyon", "cat": "Hình ảnh", "tag": "free", "desc": "Tạo ảnh AI miễn phí trực tuyến.", "url": "https://www.craiyon.com"},
-    {"name": "Runway", "cat": "Video", "tag": "trial", "desc": "Tạo/Chỉnh sửa video AI; credit dùng thử khi đăng kí.", "url": "https://runwayml.com"},
-    {"name": "Pika", "cat": "Video", "tag": "trial", "desc": "Tạo video AI; nhận credit dùng thử khi tạo tài khoản.", "url": "https://pika.art"},
-    {"name": "Luma Dream Machine", "cat": "Video", "tag": "trial", "desc": "Tạo video AI; dùng thử có credit hằng ngày.", "url": "https://lumalabs.ai"},
-    {"name": "Kling AI", "cat": "Video", "tag": "free", "desc": "Miễn phí khoảng 6 video/ngày (có giới hạn).", "url": "https://klingai.com"},
-    {"name": "AIVideo", "cat": "Video", "tag": "free", "desc": "Bộ công cụ video/ảnh/âm thanh miễn phí, nhiều model.", "url": "https://www.aivideo.com/free-tools"},
-    {"name": "Fliki", "cat": "Video", "tag": "free", "desc": "Gói free 3 phút video/tháng, không cần thẻ.", "url": "https://fliki.ai"},
-    {"name": "ElevenLabs", "cat": "Âm thanh", "tag": "free", "desc": "Tạo giọng nói AI; gói free 30.000 ký tự/tháng.", "url": "https://elevenlabs.io"},
-    {"name": "Suno", "cat": "Âm thanh", "tag": "trial", "desc": "Tạo nhạc bằng AI; gói trial có credit.", "url": "https://suno.com"},
-    {"name": "Udio", "cat": "Âm thanh", "tag": "trial", "desc": "Tạo nhạc bằng AI; dùng thử có credit.", "url": "https://www.udio.com"},
-    {"name": "Otter.ai", "cat": "Âm thanh", "tag": "free", "desc": "Ghi âm và phiên âm cuộc họp; miễn phí có giới hạn.", "url": "https://otter.ai"},
-    {"name": "Gamma", "cat": "Trình chiếu", "tag": "trial", "desc": "Tạo slide bằng AI; tặng credit khi đăng kí.", "url": "https://gamma.app"},
-    {"name": "Beautiful.ai", "cat": "Trình chiếu", "tag": "trial", "desc": "Dùng thử miễn phí có giới hạn slide.", "url": "https://www.beautiful.ai"},
-    {"name": "Hugging Face Spaces", "cat": "Tổng hợp", "tag": "free", "desc": "Chạy demo và hàng nghìn model AI miễn phí.", "url": "https://huggingface.co/spaces"},
-    {"name": "OpenRouter", "cat": "Tổng hợp", "tag": "free", "desc": "Cổng truy cập nhiều model; có model miễn phí.", "url": "https://openrouter.ai"},
-    {"name": "Google AI Studio", "cat": "Tổng hợp", "tag": "free", "desc": "Dùng thử model Gemini qua API miễn phí.", "url": "https://aistudio.google.com"},
-    {"name": "Poe", "cat": "Tổng hợp", "tag": "trial", "desc": "Truy cập nhiều chatbot; gói Free có giới hạn.", "url": "https://poe.com"},
-    {"name": "Canva Magic Studio", "cat": "Tổng hợp", "tag": "free", "desc": "Công cụ AI trong Canva miễn phí (có giới hạn).", "url": "https://www.canva.com/ai/"},
-    {"name": "Descript", "cat": "Tổng hợp", "tag": "free", "desc": "Biên tập video/podcast bằng AI; gói Free có giới hạn.", "url": "https://www.descript.com"},
-    {"name": "Grammarly", "cat": "Tổng hợp", "tag": "free", "desc": "Kiểm tra ngữ pháp và hỗ trợ viết miễn phí.", "url": "https://www.grammarly.com"},
-    {"name": "QuillBot", "cat": "Tổng hợp", "tag": "free", "desc": "Diễn đạt lại và dịch văn bản; miễn phí có giới hạn.", "url": "https://quillbot.com"},
-    {"name": "Copy.ai", "cat": "Tổng hợp", "tag": "trial", "desc": "Viết nội dung marketing bằng AI; dùng thử có credit.", "url": "https://www.copy.ai"}
+    {
+      "name": "ChatGPT",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Chat AI miễn phí có giới hạn; bản Plus trả phí.",
+      "url": "https://chatgpt.com"
+    },
+    {
+      "name": "Gemini (Google)",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Miễn phí với tài khoản Google; có gói Gemini Advanced trả phí.",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "name": "Claude (Anthropic)",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Gói Free có giới hạn yêu cầu mỗi ngày.",
+      "url": "https://claude.ai"
+    },
+    {
+      "name": "DeepSeek",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Chat miễn phí, model mã nguồn mở.",
+      "url": "https://chat.deepseek.com"
+    },
+    {
+      "name": "Qwen Chat",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Chat miễn phí từ Alibaba (model Qwen).",
+      "url": "https://chat.qwen.ai"
+    },
+    {
+      "name": "Meta AI",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Trợ lý AI miễn phí của Meta.",
+      "url": "https://www.meta.ai"
+    },
+    {
+      "name": "Le Chat (Mistral)",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Chat miễn phí của Mistral AI.",
+      "url": "https://chat.mistral.ai"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "cat": "Chat",
+      "tag": "free",
+      "desc": "Miễn phí với tài khoản Microsoft.",
+      "url": "https://copilot.microsoft.com"
+    },
+    {
+      "name": "Perplexity",
+      "cat": "Tra cứu",
+      "tag": "free",
+      "desc": "Tìm kiếm có AI, kèm nguồn tham chiếu, miễn phí.",
+      "url": "https://www.perplexity.ai"
+    },
+    {
+      "name": "NotebookLM (Google)",
+      "cat": "Tra cứu",
+      "tag": "free",
+      "desc": "Nghiên cứu, tóm tắt tài liệu; miễn phí với tài khoản Google.",
+      "url": "https://notebooklm.google.com"
+    },
+    {
+      "name": "You.com",
+      "cat": "Tra cứu",
+      "tag": "free",
+      "desc": "Công cụ tìm kiếm AI miễn phí.",
+      "url": "https://you.com"
+    },
+    {
+      "name": "GitHub Copilot Free",
+      "cat": "Mã nguồn",
+      "tag": "free",
+      "desc": "Gói miễn phí có giới hạn yêu cầu mỗi tháng.",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "name": "Windsurf (Codeium)",
+      "cat": "Mã nguồn",
+      "tag": "free",
+      "desc": "IDE có AI; gói Free tặng credit mỗi tháng.",
+      "url": "https://windsurf.com"
+    },
+    {
+      "name": "Cursor",
+      "cat": "Mã nguồn",
+      "tag": "trial",
+      "desc": "Dùng thử miễn phí theo tuần, sau đó trả phí.",
+      "url": "https://cursor.com"
+    },
+    {
+      "name": "Ideogram",
+      "cat": "Hình ảnh",
+      "tag": "free",
+      "desc": "Tạo ảnh AI miễn phí khoảng 10 ảnh/ngày.",
+      "url": "https://ideogram.ai"
+    },
+    {
+      "name": "Adobe Firefly",
+      "cat": "Hình ảnh",
+      "tag": "free",
+      "desc": "Miễn phí với credit hằng tháng cho tài khoản Adobe.",
+      "url": "https://www.adobe.com/products/firefly.html"
+    },
+    {
+      "name": "Recraft",
+      "cat": "Hình ảnh",
+      "tag": "free",
+      "desc": "Gói Free có giới hạn điểm mỗi ngày.",
+      "url": "https://www.recraft.ai"
+    },
+    {
+      "name": "Leonardo AI",
+      "cat": "Hình ảnh",
+      "tag": "trial",
+      "desc": "Tặng credit khi đăng kí; sau đó trả phí.",
+      "url": "https://leonardo.ai"
+    },
+    {
+      "name": "Craiyon",
+      "cat": "Hình ảnh",
+      "tag": "free",
+      "desc": "Tạo ảnh AI miễn phí trực tuyến.",
+      "url": "https://www.craiyon.com"
+    },
+    {
+      "name": "Runway",
+      "cat": "Video",
+      "tag": "trial",
+      "desc": "Tạo/Chỉnh sửa video AI; credit dùng thử khi đăng kí.",
+      "url": "https://runwayml.com"
+    },
+    {
+      "name": "Pika",
+      "cat": "Video",
+      "tag": "trial",
+      "desc": "Tạo video AI; nhận credit dùng thử khi tạo tài khoản.",
+      "url": "https://pika.art"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "cat": "Video",
+      "tag": "trial",
+      "desc": "Tạo video AI; dùng thử có credit hằng ngày.",
+      "url": "https://lumalabs.ai"
+    },
+    {
+      "name": "Kling AI",
+      "cat": "Video",
+      "tag": "free",
+      "desc": "Miễn phí khoảng 6 video/ngày (có giới hạn).",
+      "url": "https://klingai.com"
+    },
+    {
+      "name": "AIVideo",
+      "cat": "Video",
+      "tag": "free",
+      "desc": "Bộ công cụ video/ảnh/âm thanh miễn phí, nhiều model.",
+      "url": "https://www.aivideo.com/free-tools"
+    },
+    {
+      "name": "Fliki",
+      "cat": "Video",
+      "tag": "free",
+      "desc": "Gói free 3 phút video/tháng, không cần thẻ.",
+      "url": "https://fliki.ai"
+    },
+    {
+      "name": "ElevenLabs",
+      "cat": "Âm thanh",
+      "tag": "free",
+      "desc": "Tạo giọng nói AI; gói free 30.000 ký tự/tháng.",
+      "url": "https://elevenlabs.io"
+    },
+    {
+      "name": "Suno",
+      "cat": "Âm thanh",
+      "tag": "trial",
+      "desc": "Tạo nhạc bằng AI; gói trial có credit.",
+      "url": "https://suno.com"
+    },
+    {
+      "name": "Udio",
+      "cat": "Âm thanh",
+      "tag": "trial",
+      "desc": "Tạo nhạc bằng AI; dùng thử có credit.",
+      "url": "https://www.udio.com"
+    },
+    {
+      "name": "Otter.ai",
+      "cat": "Âm thanh",
+      "tag": "free",
+      "desc": "Ghi âm và phiên âm cuộc họp; miễn phí có giới hạn.",
+      "url": "https://otter.ai"
+    },
+    {
+      "name": "Gamma",
+      "cat": "Trình chiếu",
+      "tag": "trial",
+      "desc": "Tạo slide bằng AI; tặng credit khi đăng kí.",
+      "url": "https://gamma.app"
+    },
+    {
+      "name": "Beautiful.ai",
+      "cat": "Trình chiếu",
+      "tag": "trial",
+      "desc": "Dùng thử miễn phí có giới hạn slide.",
+      "url": "https://www.beautiful.ai"
+    },
+    {
+      "name": "Hugging Face Spaces",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Chạy demo và hàng nghìn model AI miễn phí.",
+      "url": "https://huggingface.co/spaces"
+    },
+    {
+      "name": "OpenRouter",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Cổng truy cập nhiều model; có model miễn phí.",
+      "url": "https://openrouter.ai"
+    },
+    {
+      "name": "Google AI Studio",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Dùng thử model Gemini qua API miễn phí.",
+      "url": "https://aistudio.google.com"
+    },
+    {
+      "name": "Poe",
+      "cat": "Tổng hợp",
+      "tag": "trial",
+      "desc": "Truy cập nhiều chatbot; gói Free có giới hạn.",
+      "url": "https://poe.com"
+    },
+    {
+      "name": "Canva Magic Studio",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Công cụ AI trong Canva miễn phí (có giới hạn).",
+      "url": "https://www.canva.com/ai/"
+    },
+    {
+      "name": "Descript",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Biên tập video/podcast bằng AI; gói Free có giới hạn.",
+      "url": "https://www.descript.com"
+    },
+    {
+      "name": "Grammarly",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Kiểm tra ngữ pháp và hỗ trợ viết miễn phí.",
+      "url": "https://www.grammarly.com"
+    },
+    {
+      "name": "QuillBot",
+      "cat": "Tổng hợp",
+      "tag": "free",
+      "desc": "Diễn đạt lại và dịch văn bản; miễn phí có giới hạn.",
+      "url": "https://quillbot.com"
+    },
+    {
+      "name": "Copy.ai",
+      "cat": "Tổng hợp",
+      "tag": "trial",
+      "desc": "Viết nội dung marketing bằng AI; dùng thử có credit.",
+      "url": "https://www.copy.ai"
+    },
+    {
+      "name": "AgentRouter Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$25 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/agentrouter-free-credits"
+    },
+    {
+      "name": "Google Gemini Developer API Free Tier",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/google-gemini-developer-api-free-tier"
+    },
+    {
+      "name": "Groq Free Tier",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/groq-free-tier"
+    },
+    {
+      "name": "OpenRouter Free AI Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "50 requests/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/openrouter-free-models"
+    },
+    {
+      "name": "LLM7.io Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100K tokens/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/llm7-io-free-tier"
+    },
+    {
+      "name": "Together AI Startup Accelerator",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$50K one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/together-ai-startup-accelerator"
+    },
+    {
+      "name": "Baseten AI Startup Program",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$25K one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/baseten-ai-startup-program"
+    },
+    {
+      "name": "Anthropic AI for Science Program",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$20K 6 months · Không cần thẻ",
+      "url": "https://aifree.dev/offer/anthropic-ai-for-science-program"
+    },
+    {
+      "name": "ElevenLabs Startup Grants",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5,500 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/elevenlabs-startup-program"
+    },
+    {
+      "name": "fal Startup Program",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1,000 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/fal-startup-program"
+    },
+    {
+      "name": "Runware Startup Program",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1,000 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/runware-grant-program"
+    },
+    {
+      "name": "Deepgram Free $200 Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$200 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/deepgram-free-credit"
+    },
+    {
+      "name": "Ibm Cloud Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$200 one-time · Card",
+      "url": "https://aifree.dev/offer/ibm-cloud-free-tier"
+    },
+    {
+      "name": "Amazon Polly Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$200 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/amazon-polly-free-tier"
+    },
+    {
+      "name": "OVHcloud AI Endpoints Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$200 one-time · Card",
+      "url": "https://aifree.dev/offer/ovhcloud-ai-endpoints-free-tier"
+    },
+    {
+      "name": "AkashML $100 Free AI Token Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$100 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/akashml-free-token-credits"
+    },
+    {
+      "name": "Speechmatics $100 Free Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$100 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/speechmatics-free-credit"
+    },
+    {
+      "name": "EmberCloud for Startups",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$100 one-time · Card",
+      "url": "https://aifree.dev/offer/embercloud-for-startups"
+    },
+    {
+      "name": "Alibaba Cloud Free Trial",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$90 one-time · Card",
+      "url": "https://aifree.dev/offer/alibaba-cloud-free-trial"
+    },
+    {
+      "name": "AssemblyAI Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$50 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/assemblyai-free-credits"
+    },
+    {
+      "name": "Exa Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$20 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/exa-free-credits"
+    },
+    {
+      "name": "Tripo AI Free API Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$20 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/tripo-ai-free-api-credits"
+    },
+    {
+      "name": "Hume AI Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$20 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/hume-ai-free-tier"
+    },
+    {
+      "name": "Helyx AI Free Signup Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$10 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/helyx-ai-free-signup-credit"
+    },
+    {
+      "name": "AI21 Labs Free Trial",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$10 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/ai21-labs-free-trial"
+    },
+    {
+      "name": "Mixedbread Free Starter Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/mixedbread-free-starter-credits"
+    },
+    {
+      "name": "Vercel AI Gateway Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Card",
+      "url": "https://aifree.dev/offer/vercel-ai-gateway-free-tier"
+    },
+    {
+      "name": "YepAPI Free $5 Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/yepapi-free-credit"
+    },
+    {
+      "name": "Cerebras Inference Free Trial",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Card",
+      "url": "https://aifree.dev/offer/cerebras-inference-free-trial"
+    },
+    {
+      "name": "SmarToken $1 Trial Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/smartoken-5-signup-credit"
+    },
+    {
+      "name": "Browser Use $1 Signup Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/browser-use-free-credit"
+    },
+    {
+      "name": "Experiential Labs Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1 one-time · Card",
+      "url": "https://aifree.dev/offer/experiential-labs-free-plan"
+    },
+    {
+      "name": "Nebius Token Factory $1 Trial Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1 one-time · Card",
+      "url": "https://aifree.dev/offer/nebius-token-factory-trial-credit"
+    },
+    {
+      "name": "SiliconFlow Free Credits and Free Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/siliconflow-free-inference-credits"
+    },
+    {
+      "name": "DeepInfra DeepStart 50 Billion Free Inference Tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "50B tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/deepinfra-deepstart-free-tokens"
+    },
+    {
+      "name": "Voyage AI Free Embedding and Reranking Tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "200M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/voyage-ai-free-embedding-tokens"
+    },
+    {
+      "name": "Inception - 100M Free Tokens for Mercury 3",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/inception-100m-free-tokens-mercury-2"
+    },
+    {
+      "name": "IteraCompute free Qwen3.8-27B",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "30M tokens/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/iteracompute-free-qwen3-8-27b"
+    },
+    {
+      "name": "Free.ai Startup Grant",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "15M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/free-ai-startup-tokens"
+    },
+    {
+      "name": "APInex Free AI Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10M tokens/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/apinex-free-ai-models"
+    },
+    {
+      "name": "Jina AI 10M Free API Tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/jina-ai-free-api-tokens"
+    },
+    {
+      "name": "NaraRouter Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "7M tokens/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/nararouter-free-tier"
+    },
+    {
+      "name": "Alibaba Cloud Model Studio Free Token Quota",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/alibaba-cloud-model-studio-free-quota"
+    },
+    {
+      "name": "Scaleway Generative APIs Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/scaleway-generative-apis-free-tier"
+    },
+    {
+      "name": "IBM watsonx.ai Lite Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "300K tokens/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/ibm-watsonx-ai-lite-plan"
+    },
+    {
+      "name": "AnyAPI Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100K tokens/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/anyapi-free-tier"
+    },
+    {
+      "name": "Cartesia Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "20K credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/cartesia-free-tier"
+    },
+    {
+      "name": "Cloudflare Workers AI Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10K credits/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/cloudflare-workers-ai-free-tier"
+    },
+    {
+      "name": "ElevenLabs Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10K credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/elevenlabs-free-plan"
+    },
+    {
+      "name": "Tavily Student Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "4,000 credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/tavily-student-plan"
+    },
+    {
+      "name": "Serper 2,500 Free Google Search Queries",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "2,500 requests · Không cần thẻ",
+      "url": "https://aifree.dev/offer/serper-free-queries"
+    },
+    {
+      "name": "Cohere Free Trial API",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 requests/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/cohere-free-trial-api"
+    },
+    {
+      "name": "Context.dev Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/context-dev-free-plan"
+    },
+    {
+      "name": "Firecrawl Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/firecrawl-free-plan"
+    },
+    {
+      "name": "Brave Search API Free Monthly Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 requests/month resets monthly · Card",
+      "url": "https://aifree.dev/offer/brave-search-api-free-credits"
+    },
+    {
+      "name": "Tavily Free Researcher Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 credits/month resets monthly (1st) · Không cần thẻ",
+      "url": "https://aifree.dev/offer/tavily-free-researcher-plan"
+    },
+    {
+      "name": "Infron Free AI Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 requests/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/infron-free-models"
+    },
+    {
+      "name": "Requesty Free Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "200 requests/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/requesty-free-models"
+    },
+    {
+      "name": "Routeway Free Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "200 requests/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/routeway-free-models"
+    },
+    {
+      "name": "Alysis Code Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "50 credits/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/alysis-code-free-credits"
+    },
+    {
+      "name": "Stability Ai Free Api Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "25 credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/stability-ai-free-api-credits"
+    },
+    {
+      "name": "Venice AI Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "15 images/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/venice-ai-free-tier"
+    },
+    {
+      "name": "Coze Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10 credits/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/coze-free-plan"
+    },
+    {
+      "name": "Pinecone Starter Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "2 GB · Không cần thẻ",
+      "url": "https://aifree.dev/offer/pinecone-starter-plan"
+    },
+    {
+      "name": "Fireworks for Startups",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Startup program · Không cần thẻ",
+      "url": "https://aifree.dev/offer/fireworks-ai-startup-program"
+    },
+    {
+      "name": "OpenCode Zen Free Models",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Card",
+      "url": "https://aifree.dev/offer/opencode-zen-free-models"
+    },
+    {
+      "name": "Replicate Try for Free",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/replicate-try-for-free"
+    },
+    {
+      "name": "Sail Research Free Credits",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Card",
+      "url": "https://aifree.dev/offer/sail-research-free-credits"
+    },
+    {
+      "name": "Sarvam AI Free API Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Free credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/sarvam-ai-free-api-credits"
+    },
+    {
+      "name": "Sarvam AI Startup Program",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Startup program · Không cần thẻ",
+      "url": "https://aifree.dev/offer/sarvam-ai-startup-program"
+    },
+    {
+      "name": "Token Harbor Free Allowance",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/token-harbor-free"
+    },
+    {
+      "name": "Agnes AI Free API",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/agnes-ai-free-api"
+    },
+    {
+      "name": "AMD Radeon Cloud Free APIs",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/amd-radeon-cloud-free-apis"
+    },
+    {
+      "name": "Bai Limited Free Llm Models",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/bai-limited-free-llm-models"
+    },
+    {
+      "name": "BigModel Free GLM Flash Models",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/bigmodel-free-glm-flash-models"
+    },
+    {
+      "name": "Claude API New User Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Free credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/claude-api-new-user-credits"
+    },
+    {
+      "name": "Cline Free Models",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Free credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/cline-free-models"
+    },
+    {
+      "name": "NVIDIA NIM Free Inference Endpoints",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/nvidia-nim-free-inference"
+    },
+    {
+      "name": "Ollama Cloud Free Plan",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/ollama-cloud-free-plan"
+    },
+    {
+      "name": "Pollinations Free API",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Fully free ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/pollinations-free-api"
+    },
+    {
+      "name": "Upstage AI Initiative Free Access",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Student program · Không cần thẻ",
+      "url": "https://aifree.dev/offer/upstage-ai-initiative-free-access"
+    },
+    {
+      "name": "Evot Free Models",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/evot-free-models"
+    },
+    {
+      "name": "Gladia Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Free credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/gladia-free-credits"
+    },
+    {
+      "name": "Mistral AI Free Plan",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/mistral-ai-free-plan"
+    },
+    {
+      "name": "Z.AI Free API Tier",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/z-ai-free-api-tier"
+    },
+    {
+      "name": "Morph Startup Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$1,000 one-time · Card",
+      "url": "https://aifree.dev/offer/morph-startup-credits"
+    },
+    {
+      "name": "Mistral Education Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$165 12 months · Card",
+      "url": "https://aifree.dev/offer/mistral-education-plan"
+    },
+    {
+      "name": "Youcom Api Free Signup Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$100 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/youcom-api-free-signup-credits"
+    },
+    {
+      "name": "Vmodel Api Free Signup Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$10 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/vmodel-api-free-signup-credit"
+    },
+    {
+      "name": "Deapi Free Signup Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/deapi-free-signup-credits"
+    },
+    {
+      "name": "Nscale Serverless Free Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/nscale-serverless-free-credit"
+    },
+    {
+      "name": "Vectoree Welcome Credit",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "$5 one-time · Không cần thẻ",
+      "url": "https://aifree.dev/offer/vectoree-welcome-credit"
+    },
+    {
+      "name": "Articul8 Bivia Free Tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1B tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/articul8-bivia-free-tokens"
+    },
+    {
+      "name": "Dahl Inference 100M Free Tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/dahl-inference-free-tokens"
+    },
+    {
+      "name": "Qiniu Cloud Conatus Free",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100M tokens/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/qiniu-conatus-free"
+    },
+    {
+      "name": "SCNet MaaS New-User Token Pack",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "10M tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/scnet-maas-new-user-tokens"
+    },
+    {
+      "name": "FreeModel Free Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1M tokens/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/freemodel-free-tier"
+    },
+    {
+      "name": "Gonka Broker Free Monthly Tier",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1M tokens/month resets monthly (1st) · Không cần thẻ",
+      "url": "https://aifree.dev/offer/gonka-broker-free-tier"
+    },
+    {
+      "name": "Infomaniak Ai Services Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1M credits 1 month · Card",
+      "url": "https://aifree.dev/offer/infomaniak-ai-services-free-credits"
+    },
+    {
+      "name": "CleanAPIs free monthly tokens",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "500K tokens/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/cleanapis-free-monthly-tokens"
+    },
+    {
+      "name": "BytePlus Free Trial",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "500K tokens · Không cần thẻ",
+      "url": "https://aifree.dev/offer/byteplus-free-trial"
+    },
+    {
+      "name": "OMOPHub Free Plan",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "3,000 requests/month resets monthly · Không cần thẻ",
+      "url": "https://aifree.dev/offer/omophub-free-plan"
+    },
+    {
+      "name": "XCrawl Free Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1,000 credits · Không cần thẻ",
+      "url": "https://aifree.dev/offer/xcrawl-free-credits"
+    },
+    {
+      "name": "SearchApi Free Requests",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "100 requests · Không cần thẻ",
+      "url": "https://aifree.dev/offer/searchapi-free-requests"
+    },
+    {
+      "name": "OrcaRouter Free AI Models & API Credits",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "50 requests/day resets daily · Không cần thẻ",
+      "url": "https://aifree.dev/offer/orcarouter-free-models"
+    },
+    {
+      "name": "K-EXAONE 2.5 Free on EXAONE API",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/k-exaone-25-free-api"
+    },
+    {
+      "name": "KRAFTON Raon-1 mini Free Preview",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/krafton-raon-1-mini-free-preview"
+    },
+    {
+      "name": "Maritaca AI S5 Free Model",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/maritaca-s5-free"
+    },
+    {
+      "name": "Regolo.ai Free Trial",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "1 months 1 month · Không cần thẻ",
+      "url": "https://aifree.dev/offer/regolo-core-models-free-trial"
+    },
+    {
+      "name": "SenseNova Token Plan Free Beta",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/sensenova-token-plan-free-beta"
+    },
+    {
+      "name": "Unisound U2-Decision Free API",
+      "cat": "API Credits",
+      "tag": "free",
+      "desc": "Free tier ongoing · Không cần thẻ",
+      "url": "https://aifree.dev/offer/unisound-u2-decision-free"
+    },
+    {
+      "name": "Claude for Startups",
+      "cat": "API Credits",
+      "tag": "trial",
+      "desc": "Startup program · Không cần thẻ",
+      "url": "https://aifree.dev/offer/claude-for-startups"
+    }
   ]
 }
